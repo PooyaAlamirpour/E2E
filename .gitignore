@@ -15,3 +15,4 @@ API/Contracts/bin/
 API/Entities/bin/
 API/Repository/bin/
 API/AccountOwnerServer/Projects/Blog-AccountOwner/Project/internal_logs/internallog.txt
+UI/.vscode/
