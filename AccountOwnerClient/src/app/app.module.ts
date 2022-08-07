@@ -9,6 +9,7 @@ import { CollapseModule } from "ngx-bootstrap/collapse";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { NotFoundComponent } from './error-pages/not-found/not-found.component';
 import { HttpClientModule } from "@angular/common/http";
+import { OwnerModule } from './owner/owner.module';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { HttpClientModule } from "@angular/common/http";
     AppRoutingModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
-    HttpClientModule
+    HttpClientModule,
+    OwnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
