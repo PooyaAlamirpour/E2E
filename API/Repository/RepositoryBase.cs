@@ -1,4 +1,6 @@
-﻿using Contracts;
+﻿using System;
+using System.Linq;
+using Contracts;
 using Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;

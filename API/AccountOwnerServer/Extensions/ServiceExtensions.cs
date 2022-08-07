@@ -2,6 +2,9 @@
 using LoggerService;
 using Microsoft.EntityFrameworkCore;
 using Entities;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Repository;
 
 namespace AccountOwnerServer.Extensions

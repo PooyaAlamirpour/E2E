@@ -8,3 +8,10 @@ API/Entities/obj/
 API/LoggerService/obj/
 API/Repository/obj/
 API/AccountOwnerServer/obj/
+API/AccountOwnerServer/appsettings.json
+API/AccountOwnerServer/bin/
+API/LoggerService/bin/
+API/Contracts/bin/
+API/Entities/bin/
+API/Repository/bin/
+API/AccountOwnerServer/Projects/Blog-AccountOwner/Project/internal_logs/internallog.txt

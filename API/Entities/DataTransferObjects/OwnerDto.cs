@@ -1,4 +1,7 @@
-﻿namespace Entities.DataTransferObjects
+﻿using System;
+using System.Collections.Generic;
+
+namespace Entities.DataTransferObjects
 {
     public class OwnerDto
     {
