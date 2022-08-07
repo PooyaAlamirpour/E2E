@@ -3,3 +3,8 @@ API/.idea/
 API/E2EProject/obj/
 API/E2EProject/bin/
 AccountOwnerClient/.vscode/
+API/Contracts/obj/
+API/Entities/obj/
+API/LoggerService/obj/
+API/Repository/obj/
+API/AccountOwnerServer/obj/
