@@ -12,6 +12,8 @@ import { HttpClientModule } from "@angular/common/http";
 import { OwnerModule } from './owner/owner.module';
 import { InternalServerComponent } from './error-pages/internal-server/internal-server.component';
 
+import { DatePipe } from '@angular/common';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +30,7 @@ import { InternalServerComponent } from './error-pages/internal-server/internal-
     HttpClientModule,
     OwnerModule
   ],
-  providers: [],
+  providers: [DatePipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
