@@ -4,6 +4,7 @@ import {OwnerRepositoryService} from "../../shared/services/owner-repository.ser
 import {Owner} from "../../_interfaces/Owner.model";
 import {HttpErrorResponse} from "@angular/common/http";
 import {ErrorHandlerService} from "../../shared/services/error-handler.service";
+import {Account} from "../../_interfaces/Account.model";
 
 @Component({
   selector: 'app-owner-details',
@@ -34,6 +35,10 @@ export class OwnerDetailsComponent implements OnInit {
           this.errorMessage = this.errorHandler.errorMessage;
         }
       })
+  }
+
+  printToConsole= (param: Account) => {
+    console.log('Account parameter from the child component', param)
   }
 
 }
